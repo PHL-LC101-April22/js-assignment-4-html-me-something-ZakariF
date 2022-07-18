@@ -1,1 +1,121 @@
 /* Write your CSS here! */
+
+
+body {
+    background: #EFEFEF;
+    margin: 8px;
+    font-size: 18px;
+    font-family:  sans-serif;
+    display: block;
+}
+#mainHeading {
+    color: red;
+    margin-left: 20px;
+    text-align: center;
+
+ }
+
+ .funParagraph {
+     color: green;
+     text-transform: uppercase;
+     font-weight: bold;
+ }
+
+ .main-header {
+    margin-bottom: 50px;
+    text-align: center;
+    
+ }
+ .logo {
+     font-size: 25px;
+     text-transform:uppercase ;
+     font-weight: bold;
+     
+ }
+/* Nav Styles    */
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding: 30px 20px;
+}
+.nav-link {
+    display: flex;
+    
+}
+
+ul li a {
+    display:inline-block;
+    text-decoration: none;
+   
+    color: black;
+    margin-right: 40px;
+   
+}
+
+/* Image  style   */
+.picture {
+    display: block;
+    width: 50%;
+    margin-left: 40px;
+}
+
+/* Parent section    */
+.parent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.column {
+    flex: 50%;
+}
+
+.button {
+    margin-top: 30px;
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 30px;
+    color: #F87474;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+    background: black;
+}
+  
+ main {
+     margin-bottom: 100px;
+ }
+
+ .goals {
+    display: flex;
+    align-items: center;
+    justify-items:center ;
+ }
+
+
+ h4 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+    
+ }
+
+ .goals-p {
+    text-align: center;
+    font-size: 18px;
+    margin-left: 15px;
+ }
+
+ div {
+    margin-bottom: 30px;
+ }
+
+ footer {
+    background-color: black;
+    color: blanchedalmond;
+    padding: 20px;
+    text-align: center;
+ }
