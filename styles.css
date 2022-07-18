@@ -112,3 +112,10 @@ ul li a {
  div {
     margin-bottom: 30px;
  }
+
+ footer {
+    background-color: black;
+    color: blanchedalmond;
+    padding: 20px;
+    text-align: center;
+ }
